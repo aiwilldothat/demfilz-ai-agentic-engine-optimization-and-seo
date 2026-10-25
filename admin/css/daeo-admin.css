@@ -1,0 +1,260 @@
+/* Demfilz AI Agentic Engine Optimization and SEO - admin styles. */
+
+.daeo-wrap .daeo-muted {
+	color: #646970;
+	font-size: 12px;
+}
+
+/* Summary cards. */
+.daeo-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin: 16px 0;
+}
+
+.daeo-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 14px 18px;
+	min-width: 170px;
+	display: flex;
+	flex-direction: column;
+	color: #1d2327;
+}
+
+.daeo-card-value {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.daeo-card-value .daeo-per {
+	font-size: 13px;
+	font-weight: 400;
+	color: #646970;
+}
+
+.daeo-card-label {
+	margin-top: 4px;
+	color: #646970;
+	font-size: 12px;
+}
+
+/* Suggestions table. */
+.daeo-table {
+	margin-top: 8px;
+}
+
+.daeo-table .daeo-col-score {
+	width: 70px;
+	text-align: center;
+}
+
+.daeo-table .daeo-col-actions {
+	width: 220px;
+}
+
+.daeo-issues {
+	margin: 0;
+	padding-left: 18px;
+	list-style: disc;
+}
+
+.daeo-issues li {
+	margin: 2px 0;
+}
+
+.daeo-ok {
+	color: #00790e;
+}
+
+.daeo-badge {
+	display: inline-block;
+	min-width: 34px;
+	padding: 4px 6px;
+	border-radius: 999px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+.daeo-badge-good {
+	background: #00790e;
+}
+
+.daeo-badge-mid {
+	background: #b45309;
+}
+
+.daeo-badge-bad {
+	background: #b32d2e;
+}
+
+.daeo-type-tabs {
+	margin: 10px 0 4px;
+}
+
+/* Dashboard toolbar: sort links + scan form. */
+.daeo-toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin: 4px 0 8px;
+}
+
+.daeo-toolbar .daeo-sort-current {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.daeo-scan-form {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* Importer buttons. */
+.daeo-import-buttons {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.daeo-import-form {
+	display: inline-block;
+}
+
+/* Hidden-FAQ warning in the FAQ box. */
+.daeo-faq-warning {
+	background: #fcf9e8;
+	border: 1px solid #dba617;
+	border-radius: 4px;
+	padding: 8px 12px;
+	color: #1d2327;
+}
+
+/* Meta box. */
+.daeo-meta-box .daeo-field {
+	margin: 0 0 14px;
+}
+
+.daeo-meta-box .daeo-field label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.daeo-meta-box .description {
+	display: block;
+	margin-top: 4px;
+}
+
+.daeo-counter {
+	color: #646970;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.daeo-counter.daeo-counter-over {
+	color: #b32d2e;
+	font-weight: 600;
+}
+
+/* Search snippet preview. Light surface, so pin its own text colors. */
+.daeo-snippet {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 12px 14px;
+	margin: 0 0 14px;
+	max-width: 640px;
+}
+
+.daeo-snippet-title {
+	display: block;
+	color: #1a0dab;
+	font-size: 16px;
+	line-height: 1.3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.daeo-snippet-url {
+	display: block;
+	color: #006621;
+	font-size: 12px;
+	margin: 2px 0;
+}
+
+.daeo-snippet-desc {
+	display: block;
+	color: #4d5156;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* FAQ repeater. */
+.daeo-faq-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #1d2327;
+}
+
+.daeo-faq-row-fields {
+	flex: 1;
+}
+
+.daeo-faq-row .daeo-faq-q {
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+.daeo-faq-remove {
+	color: #b32d2e;
+	font-size: 18px;
+	line-height: 1;
+	text-decoration: none;
+	padding: 4px 6px;
+	cursor: pointer;
+}
+
+.daeo-faq-remove:hover {
+	color: #8a2424;
+}
+
+/* Bots table. */
+.daeo-bots-table {
+	max-width: 760px;
+	margin-top: 8px;
+}
+
+/* Pro page. */
+.daeo-pro-intro {
+	font-size: 14px;
+	max-width: 640px;
+}
+
+.daeo-pro-features {
+	list-style: disc;
+	padding-left: 20px;
+	max-width: 640px;
+}
+
+.daeo-pro-features li {
+	margin: 6px 0;
+}
+
+.daeo-pro-tiers .daeo-card {
+	min-width: 240px;
+	max-width: 280px;
+}

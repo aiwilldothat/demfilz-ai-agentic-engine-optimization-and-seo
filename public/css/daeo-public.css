@@ -1,0 +1,92 @@
+/* Demfilz AI Agentic Engine Optimization and SEO - front-end styles.
+   Kept minimal and theme-friendly: surfaces stay transparent and text
+   colors are inherited from the theme. */
+
+.daeo-faq {
+	margin: 2em 0;
+}
+
+.daeo-faq-title {
+	margin-bottom: 0.75em;
+}
+
+.daeo-faq-item {
+	border: 1px solid rgba(128, 128, 128, 0.35);
+	border-radius: 8px;
+	margin-bottom: 0.6em;
+	overflow: hidden;
+}
+
+.daeo-faq-item summary {
+	cursor: pointer;
+	padding: 0.85em 1em;
+	font-weight: 600;
+	list-style: none;
+	position: relative;
+	padding-right: 2.4em;
+}
+
+.daeo-faq-item summary::-webkit-details-marker {
+	display: none;
+}
+
+.daeo-faq-item summary::after {
+	content: "+";
+	position: absolute;
+	right: 1em;
+	top: 50%;
+	transform: translateY(-50%);
+	font-weight: 700;
+	opacity: 0.6;
+}
+
+.daeo-faq-item[open] summary::after {
+	content: "\2212";
+}
+
+.daeo-faq-item summary:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: -2px;
+}
+
+.daeo-faq-answer {
+	padding: 0 1em 1em;
+}
+
+.daeo-faq-answer p:last-child {
+	margin-bottom: 0;
+}
+
+/* Breadcrumbs. */
+.daeo-breadcrumbs ol {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35em;
+	margin: 0 0 1em;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.daeo-breadcrumbs li {
+	display: flex;
+	align-items: center;
+	gap: 0.35em;
+}
+
+.daeo-breadcrumbs li + li::before {
+	content: "/";
+	opacity: 0.5;
+}
+
+.daeo-breadcrumbs a {
+	text-decoration: none;
+}
+
+.daeo-breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+.daeo-breadcrumbs [aria-current="page"] {
+	opacity: 0.75;
+}
